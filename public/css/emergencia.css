@@ -1,0 +1,39 @@
+.contato{
+    margin-top: 25px;
+    padding: 30px;
+    color: aliceblue;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.contato h3{
+    justify-self: center;
+}
+.contato p{
+    justify-self: center;
+}
+
+.samu{
+    background-color: brown;
+}
+
+.fireMan{
+    background-color:chocolate;
+}
+
+.police{
+    background-color: blue;
+}
+
+.mulher{
+    background-color: blueviolet;
+}
+
+.cvv{
+    background-color: rgb(219, 205, 3);
+}
+
+
+ O
+/|\
+/ \
