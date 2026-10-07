@@ -1,2 +1,2 @@
 # thakcthon
-projeto do thakcthon
+projeto do thackthon
