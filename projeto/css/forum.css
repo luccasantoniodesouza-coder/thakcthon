@@ -1,0 +1,109 @@
+#secoes{
+    display: flex;
+    margin-top: 30px;
+    gap: 25px;
+    border-radius: 20px;
+    padding: 10px;
+    border: solid 1px rgb(228, 225, 225);
+
+
+
+}
+
+
+.btn-secoes{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    border: solid 1px rgb(228, 225, 225);
+    border-radius: 20px;
+
+}
+
+
+#relatos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 650px;
+    height: 700px;
+    padding: 25px;
+}
+
+#container{
+    display: flex;
+    gap: 55px;
+
+}
+
+#map{
+    margin-top: 10px;
+    border-radius:20px;
+    background-color: blanchedalmond;
+    width: 500px;
+    height: 350px;
+}
+
+
+
+
+#lateral .button{
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+#post{
+    padding: 10px;
+}
+
+#dados{
+    display: flex;
+    gap: 10px;
+
+    align-items: center;
+
+}
+
+#dados i{
+    margin-left: 325px;
+    font-size: 25px;
+}
+
+#usuario{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+#relatos img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+#btn-post{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#btn-post button{
+    color: rgb(78, 78, 78);
+    background-color: transparent;
+    padding: 5px;
+    border: none;
+}
+
+
+#btn-post i{
+    font-size: 20px;
+}
+
+
+

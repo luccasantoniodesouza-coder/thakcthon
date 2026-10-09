@@ -1,0 +1,16 @@
+#foto{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+main{
+    justify-self: center ;
+    border: gray 1px;
+    width: 500px;
+    height: 500px;
+    margin-left: 5px;
+}
+
+
+

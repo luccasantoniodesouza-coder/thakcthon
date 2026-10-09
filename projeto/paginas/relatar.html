@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/relatar.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header>
+
+        <img src="../img/casa.png" alt="" width="50">
+        <h1>Alerta cominidade</h1>
+
+        <div class="search">
+            <label for="">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" id="searchInput" placeholder="Pesquisa">
+            </label>
+        </div>
+        <nav>
+            <a href="../index.html" id="inicio">inico</a>
+            <a href="/paginas/forum.html">forum</a>
+            <a href="/paginas/map.html">mapa</a>
+            <a href="">sobre</a>
+        </nav>
+        <div class="user"></div>
+
+
+    </header>
+    <main>
+        <div class="title">
+            <h1><i class="fa-solid fa-pen-clip"></i></h1>
+            <div><h1>Relatar um Problmema</h1 class="titleBlue">
+            <p class="margin">Informe o que esta acontecento na sua rua.</p>
+            </div>
+        </div>
+    <form action="" method="post">
+        <label for="">Titulo do problema *</label>
+        <input type="text" name="Titulo">
+
+        <label for="">endereço </label>
+        <input type="text" name="endereco">
+
+        <label for="" name="">descrição *</label>
+        <textarea id="descricao" name="descricao" rows="5" cols="30"></textarea>
+
+        <div id="foto">
+            <button class="button"><i><i class="fa-solid fa-camera"></i></i></button>
+            <button class="button">escolhe imagem</button>
+            <p>nenhuma imagem escolhida</p>
+        </div>
+
+        <button type="submit" class="button">Enviar</button>
+
+
+    </form>
+
+    </main>
+
+    <footer>
+        <div id="contFooter">
+            <p class="margin">contatos:</p>
+            <p class="margin">alertacomunidade@gmail.com</p>
+            <p class="margin">@alertacominidade</p>
+            <p class="margin">43 9 9457-4875</p>
+        </div>
+    </footer>
+
+    <script src="../js/form.js"></script>
+
+</body>
+</html>
