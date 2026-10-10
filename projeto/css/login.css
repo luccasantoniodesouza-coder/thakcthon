@@ -1,0 +1,61 @@
+main{
+    display: flex;
+}
+
+
+form{
+    max-width: 1000px;
+    justify-self: center;
+    margin: ;
+}
+
+#folhagem{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+
+
+.inputLogin{
+    padding: 8px;
+    border: solid 1px rgb(68, 97, 72);
+    border-radius: 20px;
+    background-color: transparent;
+    width: 350px;
+    outline: none;
+}
+
+#inputLoginchInput::-webkit-search-cancel-button {
+    display: none;
+
+}
+
+
+
+
+form .button{
+    border-radius: 30px;
+    background-color:  rgb(4, 80, 8);
+}
+
+
+form h1{
+    font-size: 45px;
+    align-self: center;
+}
+
+#outrosLogin{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+form p{
+    align-self: center;
+}
