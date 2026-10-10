@@ -1,12 +1,19 @@
 main{
     display: flex;
+    position: relative;
 }
+
+
 
 
 form{
     max-width: 1000px;
     justify-self: center;
-    margin: ;
+
+}
+
+#divImg{
+    margin-left: 300px;
 }
 
 #folhagem{
@@ -14,9 +21,9 @@ form{
     margin-left: 40px;
     width: 700px;
     height: 600px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    position: relative;
+    left: 200px;
+    top: -100px;
 }
 
 
@@ -56,6 +63,6 @@ form h1{
     justify-content: center;
 }
 
-form p{
+form a{
     align-self: center;
 }
